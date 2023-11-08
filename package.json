@@ -34,6 +34,10 @@
       "./node_modules/shakapacker/package/babel/preset.js"
     ]
   },
+  "engines": {
+    "node": "16.19.0",
+    "yarn": "1.22.4"
+  },
   "browserslist": [
     "defaults"
   ],
