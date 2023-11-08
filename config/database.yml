@@ -14,10 +14,9 @@
 #
 default: &default
   adapter: postgresql
-  encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username:
+  password:
+  host: localhost
 
 development:
   <<: *default
@@ -80,5 +79,3 @@ test:
 production:
   <<: *default
   database: squares_react_production
-  username: squares_react
-  password: <%= ENV["SQUARES_REACT_DATABASE_PASSWORD"] %>
