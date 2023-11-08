@@ -61,5 +61,3 @@ end
 gem "shakapacker", "= 7.1"
 
 gem "react_on_rails", "= 13.4"
-
-gem 'puma'
